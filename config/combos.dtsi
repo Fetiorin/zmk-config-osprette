@@ -52,7 +52,7 @@ COMBO(opt, &sk LALT, 32 33)
 COMBO(q, &kp Q, 0 2)
 COMBO(z, &kp Z, 21 23)
 
-COMBO(shift, &sk LSHFT, 21 22)
+COMBO(shift2, &skq LSHFT, 21 22)
 
 COMBO(ctrl, &sk LCTL, 11 12)
 COMBO(cmd, &sk LCMD, 9 10)
