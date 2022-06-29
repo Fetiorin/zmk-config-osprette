@@ -50,6 +50,36 @@
             bindings = <&caps_word>;
             key-positions = <13 14>;
         };
+
+        ukr_h {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <6 16>;
+        };
+
+        ukr_yi {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <7 17>;
+        };
+
+        ukr_back {
+            bindings = <&kp BACKSLASH>;
+            key-positions = <17 28>;
+        };
+
+        ukr_grave {
+            bindings = <&kp GRAVE>;
+            key-positions = <0 10>;
+        };
+
+        ukr_alt_g {
+            bindings = <&kp S>;
+            key-positions = <1 11>;
+        };
+
+        repeat {
+            bindings = <&key_repeat>;
+            key-positions = <3 4>;
+        };
     };
 
     keymap {
