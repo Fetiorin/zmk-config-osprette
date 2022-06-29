@@ -75,6 +75,11 @@
             bindings = <&kp LA(S)>;
             key-positions = <1 11>;
         };
+        
+        ukr_alt_quote {
+            bindings = <&kp LA(SINGLE_QUOTE)>;
+            key-positions = <2 12>;
+        };
 
         repeat {
             bindings = <&key_repeat>;
