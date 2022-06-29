@@ -72,7 +72,7 @@
         };
 
         ukr_alt_g {
-            bindings = <&kp S>;
+            bindings = <&kp LA(S)>;
             key-positions = <1 11>;
         };
 
