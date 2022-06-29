@@ -43,6 +43,15 @@
          ╰─────╯ ╰─────╯         */
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        caps_word {
+            bindings = <&caps_word>;
+            key-positions = <13 14>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
