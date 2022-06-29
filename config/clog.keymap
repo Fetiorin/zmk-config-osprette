@@ -75,7 +75,7 @@
             bindings = <&kp LA(S)>;
             key-positions = <1 11>;
         };
-        
+
         ukr_alt_quote {
             bindings = <&kp LA(SINGLE_QUOTE)>;
             key-positions = <2 12>;
@@ -128,9 +128,9 @@
             //                         |  0  | SPC | | RET |_NUM_|
 
             bindings = <
-                                    &kp MINUS               &kp PLUS     &kp BACKSLASH         &kp DOLLAR          &kp PERCENT         &kp CARET  &kp AMPERSAND  &kp ASTERISK
- &kp GRAVE    &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET             &kp EXCL  &sk LEFT_CONTROL   &sk LEFT_ALT  &sk LEFT_GUI  &sk LEFT_SHIFT  &kp SINGLE_QUOTE
-            &kp AT_SIGN         &kp LESS_THAN       &kp GREATER_THAN    &kp LEFT_BRACE    &kp RIGHT_BRACE            &kp POUND    &kp UNDERSCORE       &kp PIPE         &none           &none
+                                    &kp MINUS               &kp PLUS     &kp BACKSLASH         &kp DOLLAR          &kp PERCENT         &kp CARET  &kp AMPERSAND      &kp ASTERISK
+ &kp GRAVE    &kp TILDE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET             &kp EXCL  &sk LEFT_CONTROL   &sk LEFT_ALT      &sk LEFT_GUI  &sk LEFT_SHIFT  &kp BACKSPACE
+            &kp AT_SIGN         &kp LESS_THAN       &kp GREATER_THAN    &kp LEFT_BRACE    &kp RIGHT_BRACE            &kp POUND    &kp UNDERSCORE       &kp PIPE  &kp SINGLE_QUOTE       &kp ENTER
                                                                                  &mo 3             &trans               &trans             &none
             >;
         };
@@ -144,8 +144,8 @@
 
             bindings = <
                  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9         &none           &none   &none   &none   &none
-  &none   &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0           &none   &none   &none   &none   &none   &none
-          &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &none           &none   &none   &none   &none   &none
+  &none   &none  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_0           &none   &none   &none   &none  &kp LEFT_SHIFT   &none
+          &none  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6         &none           &none   &none   &none   &none           &none
                                                    &trans        &trans          &trans  &trans
             >;
         };
