@@ -71,16 +71,6 @@
             key-positions = <0 10>;
         };
 
-        ukr_alt_g {
-            bindings = <&kp LA(S)>;
-            key-positions = <1 11>;
-        };
-
-        ukr_alt_quote {
-            bindings = <&kp LA(SINGLE_QUOTE)>;
-            key-positions = <2 12>;
-        };
-
         ukr_ye {
             bindings = <&kp SINGLE_QUOTE>;
             key-positions = <15 5>;
@@ -94,6 +84,11 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <26 27>;
+        };
+
+        ukr_g {
+            bindings = <&kp NON_US_BSLH>;
+            key-positions = <13 24>;
         };
     };
 
